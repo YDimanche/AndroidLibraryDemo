@@ -11,3 +11,4 @@
 ![输入图片说明](qrcode_for_gh_3f4a231c552a_344.jpg)
 
 ## 内容结构
+permission：权限相关的专题
