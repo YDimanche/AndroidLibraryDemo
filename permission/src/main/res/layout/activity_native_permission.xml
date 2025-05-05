@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="这里以相机权限为例进行演示，获取多个权限包括相机权限和文件读写权限，另外权限还需要再清单文件中添加" />
+
+        <Button
+            android:id="@+id/have_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="是否已经获取相机权限" />
+
+        <Button
+            android:id="@+id/request_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取相机权限" />
+
+        <Button
+            android:id="@+id/open_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打开相机" />
+
+        <Button
+            android:id="@+id/request_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取多个权限" />
+
+
+    </LinearLayout>
+
+</ScrollView>
